@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloc2 DApp</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Ethers.js for wallet connection -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script> -->
+</head>
+<body>
+  <!-- Sidebar -->
+  <div id="sidebar" class="sidebar">
+    <div class="logo">
+      <!-- <img src="https://via.placeholder.com/30" alt="Logo" /> -->
+      <span class="logo-text">Bloc2</span>
+    </div>
+    <nav>
+      <button data-target="#intro">Intro</button>
+      <button data-target="#home">Home</button>
+      <button data-target="#token-info">Token Info</button>
+      <button data-target="#staking">Staking</button>
+      <button data-target="#rewards">Rewards</button>
+      <button data-target="#about">About</button>
+    </nav>
+    <button id="toggleSidebar" class="toggle-btn">Toggle</button>
+  </div>
+
+  <!-- Main Content -->
+  <div id="mainContent" class="content">
+    <!-- <button id="connectWallet" class="wallet-btn">Connect Wallet</button> -->
+
+    <!-- New Introduction Section -->
+    <section id="intro" class="intro-section">
+      <h1>Welcome to Bloc 2.0 – The Next-Gen Blockchain Gaming Revolution!</h1>
+      
+      <div class="headline">
+        <h2>Fund the Future: Join Bloc 2.0 and Earn While You Play!</h2>
+      </div>
+      
+      <div class="subheadline">
+        <p>Secure your early access to a decentralized gaming ecosystem on Core DAO—where every token and NFT brings you closer to the rewards you deserve.</p>
+      </div>
+      
+      <div class="about-intro">
+        <h3>About Bloc 2.0:</h3>
+        <p>Bloc 2.0 is more than just a game; it’s a decentralized revolution built on robust, secure smart contracts. Our blockchain crowdfunding campaign is designed to bring together over 20,000 early backers who will each contribute just $5–$10, fueling our journey to create an unparalleled gaming experience. Using advanced features like automatic liquidity management and reward distribution via Merkle proofs, our system ensures complete transparency and security every step of the way.</p>
+      </div>
+      
+      <div class="technology">
+        <h3>Our Technology & Tokenomics:</h3>
+        <ul>
+          <li><strong>Decentralized Security:</strong> Our smart contract (crafted with OpenZeppelin libraries) handles every transaction securely—whether you’re buying tokens in our presale, staking for rewards, or claiming bonuses.</li>
+          <li><strong>Balanced Token Supply:</strong> 70% Open Supply for public trading, presale, and ecosystem growth; 20% Locked to protect long-term value and ensure market stability; 10% Developer & Collaborator Allocation with a vesting period to maintain integrity and trust.</li>
+          <li><strong>Automatic Liquidity & Safety:</strong> A liquidity fee (capped at 5%) is applied on transactions, automatically managed via our “swap and liquify” process to secure stable market conditions.</li>
+        </ul>
+      </div>
+      
+      <div class="how-it-works">
+        <h3>How It Works:</h3>
+        <ul>
+          <li><strong>Fund the Future:</strong> Contribute $5–$10 to help us reach our target of 20,000 supporters. Every contribution directly supports development and ecosystem expansion.</li>
+          <li><strong>Receive Exclusive Rewards:</strong> Early backers receive Bloc 2.0 tokens and NFTs, plus bonus rewards through our smart contract’s reward pool. Claim your rewards securely using our Merkle proof-based system.</li>
+          <li><strong>Join Our Community:</strong> Gain early access to a groundbreaking blockchain gaming platform, participate in staking, and shape the future through decentralized governance.</li>
+        </ul>
+      </div>
+      
+      <div class="roadmap">
+        <h3>Our Roadmap:</h3>
+        <ul>
+          <li><strong>Planning & Research (Months 1–3):</strong> Finalizing our vision, building our team, and preparing our whitepaper.</li>
+          <li><strong>Token & Contract Development (Months 3–6):</strong> Deploying the Bloc 2.0 token and crowdfunding contracts on Core DAO with complete security audits.</li>
+          <li><strong>Presale & Public Sale (Months 6–9):</strong> Early investors secure discounted tokens and locked rewards.</li>
+          <li><strong>Platform Launch (Months 9–12):</strong> A fully integrated UI/UX platform for seamless contributions, wallet connectivity, and real-time updates.</li>
+          <li><strong>Growth & Governance (Months 12+):</strong> Implementing staking, reward distribution, and decentralized decision-making to build a sustainable ecosystem.</li>
+        </ul>
+      </div>
+      
+      <div class="cta">
+        <h2>Join Us Now!</h2>
+        <p>Be part of an exclusive group that’s revolutionizing blockchain gaming. With your support, Bloc 2.0 will redefine transparency, fairness, and innovation in the gaming world.</p>
+        <!-- <div class="cta-buttons">
+          <button id="contributeNow" class="cta-btn">Contribute Now</button>
+          <button id="learnMore" class="cta-btn">Learn More</button>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Existing Sections -->
+    <!-- <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to the Bloc2 DApp Dashboard.</p>
+    </section>
+    <section id="token-info">
+      <h2>Token Info</h2>
+      <p>View details and balances of Bloc2Token.</p>
+      <div id="tokenBalance"></div>
+      <button id="refreshBalance">Refresh Balance</button>
+    </section>
+    <section id="staking">
+      <h2>Staking</h2>
+      <p>Stake your Bloc2Token to earn rewards.</p>
+      <input type="number" id="stakeAmount" placeholder="Amount to stake" />
+      <button id="stakeTokens">Stake Tokens</button>
+    </section>
+    <section id="rewards">
+      <h2>Rewards</h2>
+      <p>Claim your staking rewards here.</p>
+      <button id="claimRewards">Claim Rewards</button>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p>Information about the Bloc2 project.</p>
+    </section> -->
+  </div>
+
+  <!-- Link to external JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
